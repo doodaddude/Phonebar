@@ -1,14 +1,14 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/doodaddude/Phonebar-for-mac/main/Support/AppIcon.png" width="128" height="128" alt="PhoneBar App Icon" style="border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
+  <img src="https://raw.githubusercontent.com/doodaddude/Phonebar/main/Support/AppIcon.png" width="128" height="128" alt="PhoneBar App Icon" style="border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,0.35);" />
 
   # PhoneBar for macOS
 
   ### *Your phone, floating natively on your Mac desktop.*
 
-  [![Platform](https://img.shields.io/badge/Platform-macOS%2013%2B-black?style=for-the-badge&logo=apple)](https://github.com/doodaddude/Phonebar-for-mac)
-  [![Developer ID Signed](https://img.shields.io/badge/Signed-Developer%20ID-blue?style=for-the-badge&logo=apple)](https://github.com/doodaddude/Phonebar-for-mac/releases)
-  [![Release](https://img.shields.io/github/v/release/doodaddude/Phonebar-for-mac?style=for-the-badge&color=success)](https://github.com/doodaddude/Phonebar-for-mac/releases/latest)
+  [![Platform](https://img.shields.io/badge/Platform-macOS%2013%2B-black?style=for-the-badge&logo=apple)](https://github.com/doodaddude/Phonebar)
+  [![Developer ID Signed](https://img.shields.io/badge/Signed-Developer%20ID-blue?style=for-the-badge&logo=apple)](https://github.com/doodaddude/Phonebar/releases)
+  [![Release](https://img.shields.io/github/v/release/doodaddude/Phonebar?style=for-the-badge&color=success)](https://github.com/doodaddude/Phonebar/releases/latest)
   [![License](https://img.shields.io/badge/License-MIT-amber?style=for-the-badge)](LICENSE)
 
   <p align="center">
@@ -69,7 +69,7 @@
 ## 🚀 Installation
 
 ### Option 1: Direct Download (Pre-built & Signed)
-1. Download the latest **[`PhoneBar-for-mac.zip`](https://github.com/doodaddude/Phonebar-for-mac/releases/latest/download/PhoneBar-for-mac.zip)** from the Releases page.
+1. Download the latest **[`PhoneBar-for-mac.zip`](https://github.com/doodaddude/Phonebar/releases/latest/download/PhoneBar-for-mac.zip)** from the Releases page.
 2. Unzip and drag `PhoneBar.app` into your **Applications** folder:
    ```bash
    unzip PhoneBar-for-mac.zip -d /Applications/
@@ -81,8 +81,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/doodaddude/Phonebar-for-mac.git
-cd Phonebar-for-mac
+git clone https://github.com/doodaddude/Phonebar.git
+cd Phonebar
 
 # Package and sign the release build
 ./scripts/package_release.sh
